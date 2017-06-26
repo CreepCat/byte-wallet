@@ -5,7 +5,7 @@ RUN cd / && apt-get update -qq && \
 apt-get install -y wget && apt-get clean && \
 wget https://bytecoin.org/static/files/bytecoin-linux.tar.gz && \
 mkdir bytecoin && \
-tar -xvf bytecoin-linux.tar.gz -C /root/bytecoin && \
+tar -xvf bytecoin-linux.tar.gz -C /bytecoin && \
 rm -rf bytecoin-linux.tar.gz && \
 cd bytecoin
 
