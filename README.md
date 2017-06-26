@@ -1,0 +1,2 @@
+# byte-wallet
+ByteCoin Wallet
